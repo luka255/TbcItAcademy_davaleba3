@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        var inputNumber: EditText = findViewById(R.id.input_number)
-        var convertButton: Button = findViewById(R.id.my_button)
-        var resultText: TextView = findViewById(R.id.result)
-        var languageSwitch: SwitchMaterial = findViewById(R.id.switch_language)
+        val inputNumber: EditText = findViewById(R.id.input_number)
+        val convertButton: Button = findViewById(R.id.my_button)
+        val resultText: TextView = findViewById(R.id.result)
+        val languageSwitch: SwitchMaterial = findViewById(R.id.switch_language)
 
         languageSwitch.setOnCheckedChangeListener{ buttonView, isChecked ->
             switchFlag = isChecked
